@@ -1,0 +1,136 @@
+.button-kelola-back{
+    background: #a78bfa;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+  margin-left: 20px
+}
+
+.button-kelola-back:hover {
+    background: #9370db;
+  }
+
+.container-kelola {
+    margin-top: 20px;
+    width: 50%;
+    background-color:  #F8F6F0 ;
+    margin-left: 28%;
+    border: 1px solid #ff00d4;
+    border-radius: 20px;
+    font-family: Montserrat;
+    height: auto;
+    border: none;
+    background-color: white;
+}
+
+.nama-mempelai {
+    font-size: 24px;
+    margin-bottom: -15px;
+}
+
+.link-web{
+    color: white;
+}
+.container-mempelai{
+    color: white;
+    width: 100%;
+    background-color:  #f6a777;
+    padding: 10px;
+    border-radius: 20px;
+    height: 30vh;
+    text-align: center;
+}
+
+.container-list-hadir {
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+    background-color:  #F8F6F0 ;
+    border: 1px solid #ff00d4;
+    border-radius: 20px;
+    font-family: Montserrat;
+    height: 8vh;
+    color: black;
+}
+
+.list-hadir {
+    margin-top: -20px;
+}
+
+.btn-add-pengelola{
+    margin-top: 10px;
+    width: 80%;
+    background-color:  #F8F6F0 ;
+    border: 1px solid #ff00d4;
+    border-radius: 20px;
+    font-family: Montserrat;
+    height: 4vh;
+    color: black;
+}
+.btn-add-pengelola:hover{
+    background-color: #a78bfa;
+    color: white;
+    transition: .5s ease-in-out;
+    border: none;
+}
+
+.container-fitur-pengelola {
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    height: auto;
+    text-align: center;
+}
+
+.btn-fitur-pengelola{
+    width: 25%;
+    height: 100px;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid #ff00d4;
+}
+
+.btn-fitur-pengelola:hover {
+    margin-top: -10px;
+    box-shadow: 5px 10px #888888;
+    transition: .5s ease-in-out;
+    background-color: #a78bfa;
+    color: white;
+    border: none;
+}
+
+.btn-fitur-pengelola-e {
+    width: 25%;
+    height: 100px;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid #ff00d4;
+    opacity: 0;
+}
+
+.icon-fitur {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: -15px;
+}
+
+.send-fitur {
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid #ff00d4;
+    border-radius: 20px;
+}
+
+.send-fitur:hover {
+    background-color: #a78bfa;
+    color: white;
+}

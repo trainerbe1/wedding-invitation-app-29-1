@@ -1,0 +1,66 @@
+
+.envelope {
+    font-size: 24px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.envelope-btn {
+    margin-left: 3%;
+    width: 300px;
+    border: 1px double #ff00d4;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.envelope-btn:hover {
+    background-color: #A78BFA;
+    color: white;
+    border: none;
+    transition: 0.5s ease-in;
+    
+}
+
+.text-undangan {
+    font-size: 14px;
+    text-align: start;
+}
+
+.text-undangan-nikah {
+    margin-top: -10px;
+    font-size: 10px;
+    text-align: start;
+}
+
+.container-list-undangan {
+    margin-top: 40px;
+    width: 80%;
+    background-color:  #F8F6F0 ;
+    margin-left: 10%;
+    padding: 10px;
+    border: 1px solid #ff00d4;
+    border-radius: 20px;
+    font-family: Montserrat;
+}
+
+.btn-web {
+    margin-top: 10px;
+    border: 1px solid #ff00d4;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100px;
+}
+.btn-kelola {
+    border: 1px solid #ff00d4;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100px;
+}
+
+.btn-kelola:hover, .btn-web:hover {
+    border: none;
+    background-color: #A78BFA;
+    color: white;
+    transition: .5s ease-in-out;
+}

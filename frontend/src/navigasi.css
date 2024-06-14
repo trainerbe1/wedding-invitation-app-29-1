@@ -1,0 +1,160 @@
+
+.container-nav {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    position: fixed;
+    background-color: white;
+    z-index: 9999;
+    
+  }
+  
+  .container-nav h1 {
+    color: pink;
+    text-align: end;
+  }
+.navigasi-fitur {
+  margin-top: 10px;
+  text-align: end;
+}
+
+.navigasi-fitur a {
+  margin-left: 70px;
+  font-size: 20px;
+  color: black;
+}
+
+.navigasi-fitur a:hover {
+  text-decoration: none;
+  color: pink;
+}
+
+.navigasi-daftar-login {
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+.login {
+    display: inline;
+    background-color:#A78BFA;
+    color: white;
+    padding: 10px;
+    margin-left: 100px;
+    border-radius: 5px;
+    font-size: 23px;
+  }
+  
+  .login:hover {
+    color: #ccffcc;
+  }
+
+
+  @media screen and (max-width: 1200px) {
+    .container-nav {
+      width: 810px;
+      height: auto;
+      padding: 10px;
+      position: fixed;
+      background-color: white;
+      z-index: 9999;
+
+      
+    }
+    
+    .container-nav h1 {
+      color: pink;
+      text-align: end;
+    }
+  .navigasi-fitur {
+    margin-top: 10px;
+    text-align: end;
+  }
+  
+  .navigasi-fitur a {
+    margin-left: 30px;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .navigasi-fitur a:hover {
+    text-decoration: none;
+    color: pink;
+  }
+  
+  .navigasi-daftar-login {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  
+  .login {
+      display: inline;
+      background-color:#A78BFA;
+      color: white;
+      padding: 10px;
+      margin-left: 100px;
+      border-radius: 5px;
+      font-size: 23px;
+    }
+    
+    .login:hover {
+      color: #ccffcc;
+    }
+  }
+
+
+  
+  @media screen and (max-width: 575px) {
+    .container-nav {
+      width: 575px;
+      height: auto;
+      padding: 10px;
+      position: fixed;
+      background-color: white;
+      z-index: 9999;
+
+      
+    }
+    
+    .container-nav h1 {
+      color: pink;
+      text-align: start;
+    }
+  .navigasi-fitur {
+    margin-top: 10px;
+    text-align: end;
+  }
+  
+  .navigasi-fitur a {
+    margin-left: 30px;
+    font-size: 16px;
+    color: black;
+    display: none;
+  }
+  
+  .navigasi-fitur a:hover {
+    text-decoration: none;
+    color: pink;
+  }
+  
+  .navigasi-daftar-login {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  
+  .login {
+      display: inline;
+      background-color:#A78BFA;
+      color: white;
+      padding: 10px;
+      margin-left: -200%;
+      border-radius: 5px;
+      font-size: 23px;
+    }
+    
+    .login:hover {
+      color: #ccffcc;
+    }
+  }

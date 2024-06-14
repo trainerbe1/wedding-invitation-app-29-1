@@ -1,0 +1,1064 @@
+.opening {
+  background: linear-gradient(to top, #ccffcc 0%, #ffccff 100%);
+  padding-top: 5%;
+  height: 100vh;
+  font-family: Montserrat;
+
+}
+
+.opening-text {
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.opening-text h2, h4 {
+    color: #ff00d4;
+}
+
+.img-opening {
+    margin-left: 70px;
+    margin-top: 50px;
+    position: relative;
+}
+.img1 {
+    z-index: 50px;
+    width: 400px;
+    height: 500px;
+    
+}
+
+.img2 {
+    margin-top: -600px;
+    margin-left: 350px;
+    width: 300px;
+    height: 350px;
+    z-index: 2;
+
+}
+
+.img3 {
+    margin-top: -200px;
+    margin-left: -700px;
+    width: 300px;
+    height: 300px;
+
+    z-index: 3;
+}
+
+
+.custom-shape-divider-bottom-1717697333 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1717697333 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 224px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1717697333 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+/* Daftar   */
+/*bg*/
+/*txt*/
+/*success*/
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .buttons button {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    margin: 20px;
+    color: #568fa6;
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+  }
+  
+  .buttons button:before, .buttons button:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #A78BFA;
+    transition: all 0.3s cubic-bezier(0.35, 0.1, 0.25, 1);
+  }
+  
+  .buttons button:before {
+    right: 0;
+    top: 0;
+    transition: all 0.5s cubic-bezier(0.35, 0.1, 0.25, 1);
+  }
+  
+  .buttons button:after {
+    left: 0;
+    bottom: 0;
+  }
+  
+  .buttons button span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+  }
+  
+  .buttons button span:before, .buttons button span:after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 0;
+    background-color: #A78BFA;
+    transition: all 0.3s cubic-bezier(0.35, 0.1, 0.25, 1);
+  }
+  
+  .buttons button span:before {
+    right: 0;
+    top: 0;
+    transition: all 0.5s cubic-bezier(0.35, 0.1, 0.25, 1);
+  }
+  
+  .buttons button span:after {
+    left: 0;
+    bottom: 0;
+  }
+  
+  .buttons button p {
+    padding: 0;
+    margin: 0;
+    transition: all 0.4s cubic-bezier(0.35, 0.1, 0.25, 1);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .buttons button p:before, .buttons button p:after {
+    position: absolute;
+    width: 100%;
+    transition: all 0.4s cubic-bezier(0.35, 0.1, 0.25, 1);
+    z-index: 1;
+    left: 0;
+  }
+  
+  .buttons button p:before {
+    content: attr(data-title);
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .buttons button p:after {
+    content: attr(data-text);
+    top: 150%;
+    color: whi;
+  }
+  
+  .buttons button:hover:before, .buttons button:hover:after {
+    width: 100%;
+  }
+  
+  .buttons button:hover span {
+    z-index: 1;
+  }
+  
+  .buttons button:hover span:before, .buttons button:hover span:after {
+    height: 100%;
+  }
+  
+  .buttons button:hover p:before {
+    top: -50%;
+    transform: rotate(5deg);
+  }
+  
+  .buttons button:hover p:after {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .buttons button.start {
+    background-color: #44d8a4;
+    box-shadow: 0px 5px 10px -10px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+  }
+  
+  .buttons button.start p:before {
+    top: -50%;
+    transform: rotate(5deg);
+  }
+  
+  .buttons button.start p:after {
+    color: #568fa6;
+    transition: all 0s ease;
+    content: attr(data-start);
+    top: 50%;
+    transform: translateY(-50%);
+    animation: start 0.3s ease;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes start {
+    from {
+      top: -50%;
+    }
+  }
+  
+  .buttons button.start:hover:before, .buttons button.start:hover:after {
+    display: none;
+  }
+  
+  .buttons button.start:hover span {
+    display: none;
+  }
+  
+  .buttons button:active {
+    outline: none;
+    border: none;
+  }
+  
+  .buttons button:focus {
+    outline: 0;
+  }
+
+  /* End of Daftar */
+
+
+  /* Fitur yang disedikan */
+
+  .container-fitur-u-get{
+    /* background: linear-gradient(to top, #ccffcc 0%, #ffccff 100%); */
+    padding-top: 5%;
+    height: auto;
+    text-align: center;
+    background-color: white;
+      font-family: Montserrat;
+}
+
+.container-fitur-u-get h4 {
+  margin-bottom: 30px;
+  opacity: .6;
+}
+
+.container-fitur-u-get h3 {
+  color: #A78BFA;
+}
+
+  .container-fitur-icon {
+    width:150px;
+    height: 150px;
+    background: linear-gradient(to top, #ccffcc 0%, #ffccff 100%);
+    border-radius: 47% 53% 0% 100% / 46% 51% 49% 54% ;
+    margin-left: 50px;
+    
+  }
+
+  .container-fitur-icon-kanan {
+    width:150px;
+    height: 150px;
+    background: linear-gradient(to top, #ccffcc 0%, #ffccff 100%);
+    border-radius:53% 47% 100% 0% / 51% 46% 54% 49%     ;
+    margin-left: 50px;
+
+  }
+
+  .icon-fitur-yang-disediakan {
+    margin-top: 20px;
+    font-size: 75px; 
+    color: #568fa6;
+  }
+  
+
+
+
+
+
+
+  
+  .container-sosial-media {
+    text-align: center;
+    /* background-color: white; */
+    padding-top: 50px;
+  }
+
+  .our-sosial-media-icon {
+    margin-top: 50px;
+    height: 300px;
+    font-size: 75px;
+    padding-top: 30px;
+    box-shadow:  -8px 8px 16px #a8a8a8,
+             8px -8px 16px #ffffff;
+  }
+
+  .our-sosial-media-icon:hover p {
+    color: #ff00d4;
+
+  }
+  .our-sosial-media-icon:hover{
+    margin-top: 10px;
+    transition: .5s ease-in-out;
+}
+
+  
+  .our-sosial-media-icon p {
+    font-size: 24px;
+  }
+
+  .container-cara-membuat-undangan {
+    height: 80vh;
+    background-color: white;
+  }
+
+  .ip-img {
+    width: 550px;
+    height: 500px;
+    margin-left: 20%;
+    margin-top: 50px;
+    position: relative;
+  }
+
+  .undangan-img {
+    position: relative;
+    z-index: 3;
+    width: 180px;
+    height: 300px;
+    margin-left: 185px;
+    
+  }
+
+  .slider {
+    margin-top: -400px;
+    margin-left: 20%;
+  }
+
+  .text-membuat-undangan {
+    margin-top: 50px;
+    padding-left: 5%;
+    font-family: Montserrat;
+  }
+
+  .text-membuat-undangan h1 {
+    color: #ff00d4;
+  }
+
+  .text-membuat-undangan p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+
+  
+@media screen and (max-width: 1210px) {
+  .opening {
+    background: linear-gradient(to top, #ccffcc 0%, #ffccff 100%);
+    padding-top: 5%;
+    height: 100vh;
+    font-family: Montserrat;
+    width: 810px;
+  
+  }
+  
+  .opening-text {
+      text-align: center;
+      margin-top: 15vh;
+      margin-left: 30%;
+  }
+  
+  .opening-text h2, h4 {
+      color: #ff00d4;
+      font-size: 30px;
+  }
+  
+  .img-opening {
+      margin-left: 250px;
+      margin-top: 30px;
+      position: relative;
+  }
+  .img1 {
+      z-index: 50px;
+      width: 300px;
+      height: 400px;
+      
+  }
+  
+  .img2 {
+      margin-top: -500px;
+      margin-left: 450px;
+      width: 200px;
+      height: 250px;
+      z-index: 2;
+  
+  }
+  
+  .img3 {
+      margin-top: -200px;
+      margin-left: -500px;
+      width: 200px;
+      height: 250px;
+      z-index: 3;
+  }
+  
+  /* Daftar   */
+  /*bg*/
+  /*txt*/
+  /*success*/
+  .buttons {
+      display: flex;
+      justify-content: space-around;
+      top: 20px;
+      left: 20px;
+    }
+    
+    .buttons button {
+      width: 150px;
+      height: 50px;
+      background-color: white;
+      margin: 20px;
+      color: #568fa6;
+      position: relative;
+      overflow: hidden;
+      font-size: 14px;
+      letter-spacing: 1px;
+      font-weight: 500;
+      text-transform: uppercase;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      border: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 3px;
+    }
+    
+    .buttons button:before, .buttons button:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 2px;
+      background-color: #A78BFA;
+      transition: all 0.3s cubic-bezier(0.35, 0.1, 0.25, 1);
+    }
+    
+    .buttons button:before {
+      right: 0;
+      top: 0;
+      transition: all 0.5s cubic-bezier(0.35, 0.1, 0.25, 1);
+    }
+    
+    .buttons button:after {
+      left: 0;
+      bottom: 0;
+    }
+    
+    .buttons button span {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      margin: 0;
+      padding: 0;
+      z-index: 1;
+    }
+    
+    .buttons button span:before, .buttons button span:after {
+      content: "";
+      position: absolute;
+      width: 2px;
+      height: 0;
+      background-color: #A78BFA;
+      transition: all 0.3s cubic-bezier(0.35, 0.1, 0.25, 1);
+    }
+    
+    .buttons button span:before {
+      right: 0;
+      top: 0;
+      transition: all 0.5s cubic-bezier(0.35, 0.1, 0.25, 1);
+    }
+    
+    .buttons button span:after {
+      left: 0;
+      bottom: 0;
+    }
+    
+    .buttons button p {
+      padding: 0;
+      margin: 0;
+      transition: all 0.4s cubic-bezier(0.35, 0.1, 0.25, 1);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .buttons button p:before, .buttons button p:after {
+      position: absolute;
+      width: 100%;
+      transition: all 0.4s cubic-bezier(0.35, 0.1, 0.25, 1);
+      z-index: 1;
+      left: 0;
+    }
+    
+    .buttons button p:before {
+      content: attr(data-title);
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    
+    .buttons button p:after {
+      content: attr(data-text);
+      top: 150%;
+      color: whi;
+    }
+    
+    .buttons button:hover:before, .buttons button:hover:after {
+      width: 100%;
+    }
+    
+    .buttons button:hover span {
+      z-index: 1;
+    }
+    
+    .buttons button:hover span:before, .buttons button:hover span:after {
+      height: 100%;
+    }
+    
+    .buttons button:hover p:before {
+      top: -50%;
+      transform: rotate(5deg);
+    }
+    
+    .buttons button:hover p:after {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    
+    .buttons button.start {
+      background-color: #44d8a4;
+      box-shadow: 0px 5px 10px -10px rgba(0, 0, 0, 0.2);
+      transition: all 0.2s ease;
+    }
+    
+    .buttons button.start p:before {
+      top: -50%;
+      transform: rotate(5deg);
+    }
+    
+    .buttons button.start p:after {
+      color: #568fa6;
+      transition: all 0s ease;
+      content: attr(data-start);
+      top: 50%;
+      transform: translateY(-50%);
+      animation: start 0.3s ease;
+      animation-fill-mode: forwards;
+    }
+    
+    @keyframes start {
+      from {
+        top: -50%;
+      }
+    }
+    
+    .buttons button.start:hover:before, .buttons button.start:hover:after {
+      display: none;
+    }
+    
+    .buttons button.start:hover span {
+      display: none;
+    }
+    
+    .buttons button:active {
+      outline: none;
+      border: none;
+    }
+    
+    .buttons button:focus {
+      outline: 0;
+    }
+  
+    /* End of Daftar */
+  
+  
+    /* Fitur yang disedikan */
+  
+    .container-fitur-u-get{
+      /* background: linear-gradient(to top, #ccffcc 0%, #ffccff 100%); */
+      padding-top: 5%;
+      height: auto;
+      text-align: center;
+      background-color: white;
+        font-family: Montserrat;
+  }
+  
+  .container-fitur-u-get h4 {
+    margin-bottom: 30px;
+    opacity: .6;
+  }
+  
+  .container-fitur-u-get h3 {
+    color: #A78BFA;
+    margin-left: 50%;
+    width: 100%;
+  }
+
+  .container-fitur-u-get h5 {
+    width: 200%;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+    .container-fitur-icon {
+      width:130px;
+      height: 130px;
+      background: linear-gradient(to top, #ccffcc 0%, #ffccff 100%);
+      border-radius: 47% 53% 0% 100% / 46% 51% 49% 54% ;
+      margin-left: 250px;
+      margin-bottom: 20px;
+    }
+  
+    .container-fitur-icon-kanan {
+      width:130px;
+      height: 130px;
+      background: linear-gradient(to top, #ccffcc 0%, #ffccff 100%);
+      border-radius:53% 47% 100% 0% / 51% 46% 54% 49%     ;
+      margin-left: -250px;
+      margin-bottom: 20px;
+      
+    }
+
+  .text-fitur {
+    margin-left: -250px;
+  }
+  
+    .icon-fitur-yang-disediakan {
+      margin-top: 20px;
+      font-size: 55px; 
+      color: #568fa6;
+    }
+    
+    .container-sosial-media {
+      text-align: center;
+      /* background-color: white; */
+      padding-top: 50px;
+    }
+  
+    .container-cara-membuat-undangan {
+      height: 50vh;
+      background-color: white;
+    }
+  
+    .ip-img {
+      width:350px;
+      height: 350px;
+      margin-top: 70px;
+      position: relative;
+    }
+  
+    .undangan-img {
+      position: relative;
+      z-index: 3;
+      width: 120px;
+      height: 200px;
+      margin-left: 115px;
+      margin-top: 120px;
+      
+    }
+  
+    .slider {
+      margin-top: -400px;
+      margin-left: 20%;
+    }
+  
+    .text-membuat-undangan {
+      margin-top: 50px;
+      padding-left: 5%;
+      font-family: Montserrat;
+    }
+  
+    .text-membuat-undangan h1 {
+      color: #ff00d4;
+    }
+  
+    .text-membuat-undangan p {
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+  .opening {
+    background: linear-gradient(to top, #ccffcc 0%, #ffccff 100%);
+    padding-top: 5%;
+    height: 100vh;
+    font-family: Montserrat;
+    width: 375px;
+  
+  }
+  
+  .opening-text {
+      text-align: center;
+      margin-top: 20vh;
+      margin-left: 25%;
+  }
+  
+  .opening-text h2, h4 {
+      color: #ff00d4;
+      font-size: 16px;
+  }
+  
+  .img-opening {
+      margin-left: 100px;
+      margin-top: 30px;
+      position: relative;
+  }
+  .img1 {
+      z-index: 50px;
+      width: 200px;
+      height: 250px;
+      
+  }
+  
+  .img2 {
+      margin-top: -300px;
+      margin-left: 250px;
+      width: 100px;
+      height: 150px;
+      z-index: 2;
+  
+  }
+  
+  .img3 {
+      margin-top: -200px;
+      margin-left: -300px;
+      width: 100px;
+      height: 150px;
+      z-index: 3;
+  }
+  
+  /* Daftar   */
+  /*bg*/
+  /*txt*/
+  /*success*/
+  .buttons {
+      display: flex;
+      justify-content: space-around;
+      top: 20px;
+      left: 20px;
+    }
+    
+    .buttons button {
+      width: 150px;
+      height: 50px;
+      background-color: white;
+      margin: 20px;
+      color: #568fa6;
+      position: relative;
+      overflow: hidden;
+      font-size: 14px;
+      letter-spacing: 1px;
+      font-weight: 500;
+      text-transform: uppercase;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      border: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 3px;
+    }
+    
+    .buttons button:before, .buttons button:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 2px;
+      background-color: #A78BFA;
+      transition: all 0.3s cubic-bezier(0.35, 0.1, 0.25, 1);
+    }
+    
+    .buttons button:before {
+      right: 0;
+      top: 0;
+      transition: all 0.5s cubic-bezier(0.35, 0.1, 0.25, 1);
+    }
+    
+    .buttons button:after {
+      left: 0;
+      bottom: 0;
+    }
+    
+    .buttons button span {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      margin: 0;
+      padding: 0;
+      z-index: 1;
+    }
+    
+    .buttons button span:before, .buttons button span:after {
+      content: "";
+      position: absolute;
+      width: 2px;
+      height: 0;
+      background-color: #A78BFA;
+      transition: all 0.3s cubic-bezier(0.35, 0.1, 0.25, 1);
+    }
+    
+    .buttons button span:before {
+      right: 0;
+      top: 0;
+      transition: all 0.5s cubic-bezier(0.35, 0.1, 0.25, 1);
+    }
+    
+    .buttons button span:after {
+      left: 0;
+      bottom: 0;
+    }
+    
+    .buttons button p {
+      padding: 0;
+      margin: 0;
+      transition: all 0.4s cubic-bezier(0.35, 0.1, 0.25, 1);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .buttons button p:before, .buttons button p:after {
+      position: absolute;
+      width: 100%;
+      transition: all 0.4s cubic-bezier(0.35, 0.1, 0.25, 1);
+      z-index: 1;
+      left: 0;
+    }
+    
+    .buttons button p:before {
+      content: attr(data-title);
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    
+    .buttons button p:after {
+      content: attr(data-text);
+      top: 150%;
+      color: whi;
+    }
+    
+    .buttons button:hover:before, .buttons button:hover:after {
+      width: 100%;
+    }
+    
+    .buttons button:hover span {
+      z-index: 1;
+    }
+    
+    .buttons button:hover span:before, .buttons button:hover span:after {
+      height: 100%;
+    }
+    
+    .buttons button:hover p:before {
+      top: -50%;
+      transform: rotate(5deg);
+    }
+    
+    .buttons button:hover p:after {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    
+    .buttons button.start {
+      background-color: #44d8a4;
+      box-shadow: 0px 5px 10px -10px rgba(0, 0, 0, 0.2);
+      transition: all 0.2s ease;
+    }
+    
+    .buttons button.start p:before {
+      top: -50%;
+      transform: rotate(5deg);
+    }
+    
+    .buttons button.start p:after {
+      color: #568fa6;
+      transition: all 0s ease;
+      content: attr(data-start);
+      top: 50%;
+      transform: translateY(-50%);
+      animation: start 0.3s ease;
+      animation-fill-mode: forwards;
+    }
+    
+    @keyframes start {
+      from {
+        top: -50%;
+      }
+    }
+    
+    .buttons button.start:hover:before, .buttons button.start:hover:after {
+      display: none;
+    }
+    
+    .buttons button.start:hover span {
+      display: none;
+    }
+    
+    .buttons button:active {
+      outline: none;
+      border: none;
+    }
+    
+    .buttons button:focus {
+      outline: 0;
+    }
+  
+    /* End of Daftar */
+  
+  
+    /* Fitur yang disedikan */
+  
+    .container-fitur-u-get{
+      /* background: linear-gradient(to top, #ccffcc 0%, #ffccff 100%); */
+      padding-top: 5%;
+      height: auto;
+      text-align: center;
+      background-color: white;
+        font-family: Montserrat;
+  }
+  
+  .container-fitur-u-get h4 {
+    margin-bottom: 30px;
+    opacity: .6;
+  }
+  
+  .container-fitur-u-get h3 {
+    color: #A78BFA;
+    margin-left: 50%;
+    width: 100%;
+  }
+
+  .container-fitur-u-get h5 {
+    width: 200%;
+    font-size: 12px;
+  }
+  
+    .container-fitur-icon {
+      width:50px;
+      height: 50px;
+      background: linear-gradient(to top, #ccffcc 0%, #ffccff 100%);
+      border-radius: 47% 53% 0% 100% / 46% 51% 49% 54% ;
+      margin-left: 140px;
+      margin-bottom: 50px;
+    }
+  
+    .container-fitur-icon-kanan {
+      width:50px;
+      height: 50px;
+      background: linear-gradient(to top, #ccffcc 0%, #ffccff 100%);
+      border-radius:53% 47% 100% 0% / 51% 46% 54% 49%     ;
+      margin-left: -150px;
+      margin-bottom: 50px;
+      
+    }
+
+  .text-fitur {
+    margin-left: -200px;
+    width: 50%;
+  }
+
+  .text-fitur-kiri {
+    width: 50%;
+    margin-left: -40px;
+  }
+  
+    .icon-fitur-yang-disediakan {
+      margin-top: 10px;
+      font-size: 20px; 
+      color: #568fa6;
+    }
+    
+    .container-sosial-media {
+      text-align: center;
+      /* background-color: white; */
+      padding-top: 50px;
+    }
+  
+    .container-sosial-media p {
+      font-size: 12px;
+    }
+    .container-cara-membuat-undangan {
+      height: 100vh;
+      background-color: white;
+    }
+  
+    .ip-img {
+      width:250px;
+      height: 250px;
+      margin-top: -55px;
+      margin-left: -7px;
+      position: relative;
+    }
+  
+    .undangan-img {
+      position: relative;
+      z-index: 3;
+      width: 80px;
+      height: 150px;
+      margin-left: 150px;
+      margin-top: 170px;
+      
+    }
+  
+    .slider {
+      margin-top: -370px;
+      margin-left: 30%;
+    }
+  
+    .text-membuat-undangan {
+      margin-top: 50px;
+      padding-left: 5%;
+      font-family: Montserrat;
+      width: 80%;
+    }
+  
+    .text-membuat-undangan h1 {
+      color: #ff00d4;
+    }
+  
+    .text-membuat-undangan p {
+      font-size: 16px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+}

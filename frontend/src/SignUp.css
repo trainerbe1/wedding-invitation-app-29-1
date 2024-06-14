@@ -1,0 +1,145 @@
+/*font untuk style text*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/*tubuh form*/
+.registration-page {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #fe018a;
+  background-image: url("./img/nikah.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+.registration-form {
+  background: #f8f6f0;
+  padding: 2rem;
+  border-radius: 37px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+/*gambar disamping kanan*/
+.image-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: none;
+
+}
+
+.side-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/*judul dan kolom input*/
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.required-asterisk {
+  color: red;
+}
+
+/*button buat akun*/
+.submit-btn {
+  background: #a78bfa;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #9370db;
+}
+
+/*button sudah punya akun*/
+.login-btn {
+  display: block;
+  background: #ffffff;
+  color: #a78bfa;
+  border: 1px solid #a78bfa;
+  padding: 0.75rem;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #a78bfa;
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+a {
+  color: #a78bfa;
+  text-decoration: none;
+}
+
+/*judul form*/
+.modal-title {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  color: #fe018a;
+  margin-bottom: 1rem;
+}
+
+.error-message {
+  color: #f44336;
+  border: 1px solid #f44336;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  background-color: #fff;
+}

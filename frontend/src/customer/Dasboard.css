@@ -1,0 +1,153 @@
+
+.body {
+    margin-left: 200px;
+    margin-top: -50px;
+    background-color: white;
+    height: auto;
+}
+
+.titlee{
+    margin-top: 60px;
+    font-size: 30px;
+    margin-left: 20px;
+    color:  #ff00d4;
+    
+}
+
+.titlee p {
+    font-family: Cormorant Garamond;
+}
+.id {
+    width: 50px;
+    height: 50px;
+    background-color: #A78BFA;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    margin-left: 80%;
+}
+
+.hr {
+    color: black;
+}
+
+.container-create-undangan {
+    width: 80%;
+    background-color:  #F8F6F0 ;
+    margin-left: 10%;
+    padding: 10px;
+    border: 1px solid #ff00d4;
+    border-radius: 20px;
+    font-family: Montserrat;
+    
+}
+
+.container-create-undangan p {
+    font-size: 20px;
+}
+
+.container-create-undangan button {
+    width: 30%;
+    height: 63px;
+    background-color: white;
+    font-size: 20px;
+    margin-left: 35%;
+    border-radius: 10px;
+    border: 1px solid #ff00d4;
+    
+}
+
+.container-create-undangan button:hover {
+    background-color: #A78BFA;
+    color: white;
+    transition: 0.5s ease-in;
+    border: none;
+    
+}
+
+.letter {
+    margin-right: 10px;
+}
+
+
+.conatiner-undanganmu  {
+    width: 80%;
+    background-color: #F8F6F0 ;
+    margin-left: 10%;
+    padding: 20px;
+    margin-top: 30px;
+    border: 1px solid #ff00d4;
+    border-radius: 20px;
+    font-family: Montserrat;
+}
+
+.undangan-have{ 
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    border: 1px double #ff00d4;
+    
+}
+
+.qr { 
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    border: 1px double #ff00d4;
+}
+
+.qr:hover {
+    background-color: #A78BFA;
+    color: white;
+    transition: 0.5s ease-in;
+    border: none;
+
+    
+}
+
+.und-milik {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.und-pernah {
+    margin-bottom: 5dvhpx;
+}
+
+.col-12 {
+    background-color: white;
+    text-align: center;
+}
+
+.und {
+
+    font-size: 20px;
+}
+
+
+
+.qrcode {
+    font-size: 50px;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+.textbuka {
+    font-size: 24px;
+}
+
+.textscan {
+    font-size: 16px;
+}
+
+.container-footer {
+    background-color: #F8F6F0 ;
+    height: 72px;
+    padding: 10px 0px 0px 40px;
+    
+}
+
+.iconheart {
+    color:#ff00d4;
+}

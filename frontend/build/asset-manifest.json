@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1bd3c683.css",
+    "main.js": "/static/js/main.aea22c05.js",
+    "static/js/453.c6218152.chunk.js": "/static/js/453.c6218152.chunk.js",
+    "static/media/undangan2.png": "/static/media/undangan2.bf5b9837cae63c578cd4.png",
+    "static/media/bride1.jpg": "/static/media/bride1.91504d24a4c3423d54a6.jpg",
+    "static/media/undangan1.webp": "/static/media/undangan1.0ae125248d83f783f5dd.webp",
+    "static/media/bridepng.png": "/static/media/bridepng.12406e07d6f00c888149.png",
+    "static/media/bride2.jpg": "/static/media/bride2.3eac2c845ce20fff250d.jpg",
+    "static/media/bride3.jpg": "/static/media/bride3.bf9593cad6bf0d243fbc.jpg",
+    "static/media/undangan3.jpg": "/static/media/undangan3.cbbe332828227540dc97.jpg",
+    "static/media/nikah.jpg": "/static/media/nikah.5d6313c73f971c58eef9.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/ip1.avif": "/static/media/ip1.f7c8aa611b4094efaf18.avif",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.1bd3c683.css.map": "/static/css/main.1bd3c683.css.map",
+    "main.aea22c05.js.map": "/static/js/main.aea22c05.js.map",
+    "453.c6218152.chunk.js.map": "/static/js/453.c6218152.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bd3c683.css",
+    "static/js/main.aea22c05.js"
+  ]
+}

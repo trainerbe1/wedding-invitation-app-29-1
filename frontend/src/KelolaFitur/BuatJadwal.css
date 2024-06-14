@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.invitation-page {
+  display: flex;
+  flex-direction: column; /* Align children vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: center; /* Center children vertically */
+  min-height: 100vh;
+  width: 100%;
+  background-color: #fe018a;
+  background-image: url("../img/nikah.jpg");
+  padding: 20px;
+  margin-left: 200px;
+}
+
+.invitation-form {
+  background: #f8f6f0;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+.modal-title {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  color: #fe018a;
+  margin-top: 3px;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="time"],
+.form-group input[type="url"] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.form-group .Jadwal {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.Jadwal::after {
+  content: " *";
+  color: red;
+}
+
+.form-group .Jadwal[for="linkMap"]::after {
+  content: none; /* Hide the asterisk */
+}
+
+.submit-btn {
+  background: #a78bfa;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #9370db;
+}
+
+.button-inv {
+  display: flex;
+  align-items: center;
+  width: auto;
+  background-color: #a78bfa;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  top: 20px;
+  left: 250px;
+  padding: 8px;
+}
+
+.button-logo {
+  width: 36.21px;
+  height: 29.95px;
+  margin-right: 10px;
+  fill: white;
+}
+
+.button-inv:hover {
+  background-color: #9575cd;
+}

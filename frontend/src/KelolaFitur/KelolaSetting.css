@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f6f0;
+  overflow-x: hidden;
+}
+
+.titlee {
+  text-align: center;
+}
+
+.button-kelola-back {
+  display: flex;
+  align-items: center;
+  background-color: #a78bfa;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.button-kelola-back:hover {
+  background-color: #c3afff;
+}
+
+.button-logo {
+  margin-right: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.form-container {
+  background-color: white;
+  border: 1px solid #ff00d4;
+  border-radius: 10px;
+  width: 80%;
+  margin-top: 85px;
+  padding: 20px;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-inputs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form-item {
+  flex: 1;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ff00d4;
+  border-radius: 5px;
+  background-color: #e1e1e1;
+  color: #555;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: #555;
+}
+
+.form-item:last-child {
+  margin-right: 0;
+}
+
+.textarea {
+  height: 100px; /* Adjust as needed */
+  resize: vertical;
+}
+
+.description,
+.file-info {
+  display: block;
+  margin-top: 5px;
+  color: #555;
+}
+
+.upload-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 1px solid #ff00d4;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s ease-in;
+}
+
+.upload-button:hover {
+  background-color: #a78bfa;
+  border: none;
+  color: white;
+}
+
+.dinamis {
+  text-align: start;
+}
+
+.textareapesan {
+  height: 370px; /* Adjust as needed */
+  resize: vertical;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ff00d4;
+  border-radius: 5px;
+  background-color: #e1e1e1;
+  color: #555;
+}
+
+.simpan-button1 {
+  background-color: white;
+  color: #000000;
+  border: 1px solid #ff00d4;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 80px;
+  width: 200px;
+  transition: 0.5s ease-in;
+}
+
+.simpan-button1:hover {
+  background-color: #a78bfa;
+  color: white;
+  border: none;
+}

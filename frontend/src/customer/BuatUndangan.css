@@ -1,0 +1,125 @@
+/*font untuk style text*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/*tubuh form*/
+.invitation-page {
+  display: flex;
+  flex-direction: column; /* Align children vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: center; /* Center children vertically */
+  min-height: 100vh;
+  width: 100%;
+  background-color: #fe018a;
+  background-image: url("../img/nikah.jpg");
+  padding: 20px;
+  margin-left: 200px;
+
+}
+
+.invitation-form {
+  background: #f8f6f0;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border: 1px solid #000;
+  margin-bottom: 20px; /* Add margin to separate the form from the button */
+}
+
+.modal-title {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  color: #fe018a;
+  margin-top: 3px;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+label[for="judulUndangan"]::after,
+label[for="linkUndangan"]::after,
+label[for="namaMempelai1"]::after,
+label[for="namaMempelai2"]::after {
+  content: " *";
+  color: red;
+  position: relative;
+}
+
+.submit-btn {
+  background: #a78bfa;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #9370db;
+}
+
+/* Style for the button */
+.button-inv {
+  display: flex; /* Make button flex container */
+  align-items: center; /* Center items vertically */
+  width: auto; /* Allow button width to adjust to content */
+  background-color: #a78bfa; /* Change background color to #A78BFA */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px; /* Adjust font size */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition effect */
+  position: absolute; /* Position the button */
+  top: 20px; /* Set distance from top */
+  left: 220px; /* Set distance from left */
+  padding: 8px; /* Add padding to the button */
+}
+
+.button-logo {
+  width: 36.21px; /* Set logo width */
+  height: 29.95px; /* Set logo height */
+  margin-right: 10px; /* Add space between logo and text */
+  fill: white;
+}
+
+.button-inv:hover {
+  background-color: #9575cd; /* Change background color on hover */
+}
